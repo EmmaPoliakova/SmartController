@@ -24,4 +24,4 @@
 
 ### 11 Oct 2021
 * *0.5 hour* Created GitLab repository 
-* *2 hours* Fixing the errors from previous major update
+* *3 hours* Fixing the errors from previous major update
