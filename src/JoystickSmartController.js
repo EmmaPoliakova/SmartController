@@ -1,4 +1,7 @@
-class Joystick{
+import {SmartController} from './SmartController'; 
+import QRCode from 'qrcode'; // should be imported in SmartController.js only
+
+export class Joystick{
 
   constructor(connection){
  
@@ -36,22 +39,24 @@ class Joystick{
  }
 
 
-class JoystickSmartController extends SmartController{
+export class JoystickSmartController extends SmartController{
 
   constructor(peerid) {
       super(peerid);
       self = this;
-      this.joystickList = {};
+      this.joystickList = {}; //list of active players
 
-
+      //listen for new connections
       this.peerConnection.on("connection", this.joystickOptions);
   }
   
+  //when a new connection is detected create a new Joystick instance to store and process all the data
   joystickOptions = (conn) => {
       self.joystickList[conn.peer] = new Joystick(conn);
     }
 
 
+    //should be in SmartController only 
     createQrCode = (url = "joystick url", canvasID) => {
       self.peerConnection.on("open" , function(id){
         QRCode.toCanvas(document.getElementById(canvasID), url +"?id="+self.peerConnection.id, function (error) {

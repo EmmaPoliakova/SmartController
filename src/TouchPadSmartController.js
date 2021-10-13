@@ -1,4 +1,7 @@
-class TouchPad{
+import {SmartController} from './SmartController'; 
+import QRCode from 'qrcode'; // should be imported in SmartController.js only
+
+export class TouchPad{
 
   constructor(connection){
     
@@ -29,20 +32,24 @@ class TouchPad{
  
  }
 
-class TouchPadSmartController extends SmartController{
+export class TouchPadSmartController extends SmartController{
 
   constructor(peerid) {
       super(peerid);
       self = this;
-      this.touchpadList = [];
+      this.touchpadList = {}; //list of active players
+
+      //listen for new connections
       this.peerConnection.on("connection", this.touchpadOptions);
   }
   
+  //when a new connection is detected create a new TouchPad instance to store and process all the data
   touchpadOptions = (conn) => {
       self.touchpadList[conn.peer] = new TouchPad(conn);
     }
 
 
+    //should be in SmartController only 
     createQrCode = (url = "touch screen canvas url", canvasID) => {
       self.peerConnection.on("open" , function(id){
         QRCode.toCanvas(document.getElementById(canvasID), url +"?id="+self.peerConnection.id, function (error) {
