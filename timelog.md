@@ -64,4 +64,20 @@
 * *1.5 hours* Updating the messages and integrating the message system with the rest of the code
 * *1 hour* Adding support/hosting for the NES controller 
 
+### 29 Oct 2021
+* *1.5 hours* Project meetings and discussion
+
+## Week 6
+
+### 3 Nov 2021
+* *0.5 hour* Project meeting
+
+### 4 Nov 2021
+* *1 hour* Updating the NesSmartController class, fixing the joystick demo bug
+
+### 5 Nov 2021
+* *0.5 hour* Project meeting
+* *0.5 hour* Updating the documentation, publishing new npm version
+
+
 
