@@ -80,4 +80,18 @@
 * *0.5 hour* Updating the documentation, publishing new npm version
 
 
+## Week 7
+
+### 10 Nov 2021
+* *1 hour* Researching export methods for npm package
+
+### 11 Nov 2021
+* *5 hours* Researching export methods for npm package
+ 
+### 14 Nov 2021
+* *3 hours* Updating the export method for smartcontroller, creating support for different imports
+* *0.5 hour* Testing new imports, making small demos
+
+
+
 
