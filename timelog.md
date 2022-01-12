@@ -87,10 +87,65 @@
 
 ### 11 Nov 2021
 * *5 hours* Researching export methods for npm package
+
+### 12 Nov 2021
+* *1 hour* Project meeting
  
 ### 14 Nov 2021
 * *3 hours* Updating the export method for smartcontroller, creating support for different imports
 * *0.5 hour* Testing new imports, making small demos
+
+
+## Week 8
+
+### 19 Nov 2021
+* *1 hour* Project meeting
+
+
+## Week 9
+
+### 26 Nov 2021
+* *1 hour* Project meeting
+
+
+## Week 10
+
+### 3 Dec 2021
+* *1 hour* Project meeting
+
+
+## Week 11
+
+### 10 Dec 2021
+* *1 hour* Project meeting
+
+### 10 Dec 2021
+* *4 hours* Controller code refactoring
+
+
+## Week 12
+
+### 14 Dec 2021
+* *4 hours* Trying out Couscous for docs page
+
+### 15 Dec 2021
+* *1 hour* New demo with the refactored class
+* *2 hours* Researching jekyll
+* *4 hours* Creating new docs pages
+ 
+### 16 Dec 2021
+* *3 hours* Working on docs pages
+* *2 hours* Progress report
+
+### 17 Dec 2021
+* *1.5 hours* Project meeting
+
+
+## Week 13
+
+### 10 Jan 2022
+* *4 hours* New system to handle multiple connections for the same ID
+* *0.5 hour* New send method
 
 
 
