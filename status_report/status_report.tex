@@ -1,0 +1,76 @@
+    
+\documentclass[11pt]{article}
+\usepackage{times}
+\usepackage{hyperref}
+    \usepackage{fullpage}
+    
+    \title{SmartPeerJS: A library for turning smartphone in interactive controller}
+    \author{Emma Poliakova - 2389098p}
+
+    \begin{document}
+    \maketitle
+    
+    
+     
+
+\section{Status report}
+
+\subsection{Proposal}\label{proposal}
+
+This project builds on my summer project: \href{https://github.com/EmmaPoliakova/WebRTCSmartphoneController}{WebRTCSmartPhoneController} and \href{https://github.com/EmmaPoliakova/smartpeer}{smartpeer}. This was focused on creating demos to illustrate the idea of a website controlled by smartphone. The goal is now to create an open-source library that packages the code needed to establish the peer-to-peer communication between the computer and phone websites and simplify the process of creating new types of smartphone controllers. 
+
+
+\subsubsection{Motivation}\label{motivation}
+
+ Virtually everyone has a smartphone nowadays. Harnessing the large array of sensors smartphones offer to create controllers avoids the need of any expensive equipment or software installations. The idea is to turn your phone into a controller such as joystick, nes controller or hand tracker among others, by scanning just a single qr code.
+
+\subsubsection{Aims}\label{aims}
+The aim of the project is to have a library that requires only a few lines of code to support a peer-to-peer connection and data management between a phone controller and a PC browser. The process of controller creation should be easy and standardized. Working directly with users of the library to learn what functionality should be supported.
+
+\subsection{Progress}\label{progress}
+
+\begin{itemize}
+  \item Posted a survey to figure out a library name and keywords that would make searching for it easier.
+  \item Created a Github organization to store and manage the code.
+  \item Made a logo for the organization. 
+  \item Decided on the code structure, how will different classes complement each other.
+  \item Created base classes for browser, controller and phone.
+  \item Host and maintain three specific controllers Joystick, Touchpad and Nes Controller to be used on the phone.
+  \item Made simple demos to demonstrate the use of the library.
+  \item Written basic documentation.
+  \item Published a version to npm compatible with different ways of importing. 
+\end{itemize}
+
+\subsection{Problems and risks}\label{problems-and-risks}
+
+\subsubsection{Problems}\label{problems}
+
+\begin{itemize}
+    \item The main problem was finding a way to export the library to npm and support different kinds of imports. 
+    \item Some of the code turned out to be redundant and needed to be refactored. 
+    \item Efficient way of bundling files with webpack. 
+\end{itemize}
+
+\subsubsection{Risks}\label{risks}
+
+\begin{itemize}
+    \item Cannot prevent multiple players to scan the same QRcode and have the same player ID. Mitigation: Provide a way to decide which player should keep the player id. 
+    \item Two peers cannot have the same peer ID. This could happen if a user decides to set the peer IDs manually. Mitigation: Make sure this is clearly explained in the documentation. 
+    
+\end{itemize}
+
+\subsection{Plan}\label{plan}
+
+\begin{itemize}
+    \item Week 1-2: Create a support for player IDs. 
+    \item Week 3: Implement stats and update frequency support.
+    \item Week 4-5: Finish writing documentation.
+    \item Week 6-7: Upgrade the existing demos to show different functionalities of the library, easy to follow and learn from. 
+    \item Week 8-10: Finishing up dissertation. 
+\end{itemize}
+
+
+
+    
+    
+    \end{document}
