@@ -147,6 +147,83 @@
 * *4 hours* New system to handle multiple connections for the same ID
 * *0.5 hour* New send method
 
+### 14 Jan 2022
+* *1.5 hours* Project meeting
 
+## Week 14
 
+### 21 Jan 2022
+* *1 hours* Project meeting
+* 
+## Week 15
+
+### 28 Jan 2022
+* *1.5 hours* Project meeting
+## Week 16
+
+### 4 Feb 2022
+* *1 hours* Project meeting
+## Week 17
+
+### 11 Feb 2022
+* *1 hours* Project meeting
+* 
+## Week 18
+### 15 Feb 2022
+* *1 hours* Adding controller alert and QR code waiting message.
+### 16 Feb 2022
+* *2 hours* Fixing message rate and ping updating. 
+### 17 Feb 2022
+* *1.5 hours* Adding message throttle to QR code function
+### 18 Feb 2022
+* *1 hours* Project meeting
+
+## Week 19
+21-27
+### 25 Feb 2022
+* *1.5 hours* Project meeting
+
+## Week 20
+### 28 Feb 2022
+* *2 hours* Writing disseration
+### 1 March 2022
+* *1.5 hours* Creating statistics page
+### 2 March 2022
+* *1.5 hours* Fixing statistics page
+### 3 March 2022
+* *3 hours* Writing disseration
+### 4 March 2022
+* *2 hours* Writing disseration
+* 
+## Week 21
+7-13
+### 11 March 2022
+* *1.5 hours* Accelerometer and demo page
+* *1.5 hours* Project meeting
+
+## Week 22
+### 16 March 2022 
+* *3 hours* writing dissertation
+### 17 March 2022 
+* *3 hours* writing dissertation
+### 18 March 2022
+* *1 hours* Statistics page and documentation
+* *2 hours* Writing dissertation
+
+## Week 23
+### 21 March 2022 
+* *2 hours* writing dissertation
+### 22 March 2022 
+* *4 hours* writing dissertation
+### 23 March 2022 
+* *2.5 hours* writing dissertation
+### 24 March 2022 
+* *2 hours* writing dissertation
+### 25 March 2022
+* *0.5 hours* Project meeting
+* *4 hours* Writing dissertation
+* *0.5 hours* Finishing up documentation
+
+## Week 24
+28-1
 
