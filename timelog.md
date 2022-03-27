@@ -147,27 +147,43 @@
 * *4 hours* New system to handle multiple connections for the same ID
 * *0.5 hour* New send method
 
+### 12 Jan 2022
+* *0.5 hour* New send method
+
 ### 14 Jan 2022
 * *1.5 hours* Project meeting
 
 ## Week 14
+### 17 Jan 2022
+* *1 hours* New demo with comments
+* *0.5 hour* Updated touchpad version
+
+### 19 Jan 2022
+* *1.5 hours* Nes demo 
 
 ### 21 Jan 2022
 * *1 hours* Project meeting
-* 
+
 ## Week 15
+### 26 Jan 2022
+* *1 hours* Multiplayer touchpad demo
+
+### 27 Jan 2022
+* *1 hours* Ping test
 
 ### 28 Jan 2022
 * *1.5 hours* Project meeting
-## Week 16
 
+## Week 16
 ### 4 Feb 2022
+* *1 hours* First accelerometer prototype
 * *1 hours* Project meeting
+
 ## Week 17
 
 ### 11 Feb 2022
 * *1 hours* Project meeting
-* 
+
 ## Week 18
 ### 15 Feb 2022
 * *1 hours* Adding controller alert and QR code waiting message.
@@ -179,7 +195,6 @@
 * *1 hours* Project meeting
 
 ## Week 19
-21-27
 ### 25 Feb 2022
 * *1.5 hours* Project meeting
 
@@ -194,9 +209,8 @@
 * *3 hours* Writing disseration
 ### 4 March 2022
 * *2 hours* Writing disseration
-* 
+ 
 ## Week 21
-7-13
 ### 11 March 2022
 * *1.5 hours* Accelerometer and demo page
 * *1.5 hours* Project meeting
