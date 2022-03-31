@@ -239,5 +239,12 @@
 * *0.5 hours* Finishing up documentation
 
 ## Week 24
-28-1
+### 28 March 2022 
+* *5 hours* writing dissertation
+### 29 March 2022 
+* *5 hours* writing dissertation
+### 30 March 2022 
+* *3 hours* writing dissertation
+### 31 March 2022 
+* *6 hours* finishing disserattion and presentation
 
